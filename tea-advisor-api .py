@@ -47,4 +47,4 @@ def tea_by_mood():
     return jsonify(tea=random.choice(mood_map[mood]))
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5004, use_reloader=False)
+    
